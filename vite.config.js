@@ -4,6 +4,6 @@ import ghPages from "vite-plugin-gh-pages";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/rock-paper-scissors/",
+  base: "/Stone_paper_scissors/",
   plugins: [react()],
 });
