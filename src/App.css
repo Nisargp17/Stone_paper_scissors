@@ -1,0 +1,53 @@
+.battle-scene {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.battle-img {
+  width: 20vw;
+  height: auto;
+  max-width: 150px;
+}
+
+.choices {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.choice-img {
+  width: 20vw;
+  height: auto;
+  max-width: 120px;
+  transition: transform 0.3s ease;
+}
+
+.choice-img:hover {
+  transform: scale(1.1);
+}
+
+.result-modal {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+body,
+html,
+.app {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center;
+  overflow-x: hidden;
+}
