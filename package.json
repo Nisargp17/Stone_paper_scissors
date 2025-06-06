@@ -1,6 +1,8 @@
 {
+  "$schema": "https://json.schemastore.org/package",
   "name": "spc-game",
   "private": true,
+   "homepage": "https://Nisargp17.github.io/Stone_paper_scissors",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
